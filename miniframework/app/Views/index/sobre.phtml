@@ -1,0 +1,13 @@
+<h1>sobre</h1>
+<hr>
+<ul>
+	
+<?php foreach ($this->view->dados as $indice => $info) { ?>
+	
+	<li>
+		<h3><?= $info['titulo']; ?></h3>
+		<p><?= $info['descricao']; ?></p>
+	</li>
+
+ <?php } ?>
+</ul>
